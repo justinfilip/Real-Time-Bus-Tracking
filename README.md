@@ -3,22 +3,22 @@
 ## Real-time locations of buses en route between MIT and Harvard
 
 ### How to Run
-1) Enable the Maps Javascript API in a new Google Cloud project
-2) Add billing information and attach a billing account to your project (won't cost anything to run this)
-3) Create an API key
-4) Replace YOUR_API_KEY with your API key
-5) Load index.html in a browser
+- Enable the Maps Javascript API in a new Google Cloud project
+- Add billing information and attach a billing account to your project (won't cost anything to run this)
+- Create an API key
+- Replace YOUR_API_KEY with your API key
+- Load index.html in a browser
 
 ### Improvements made so far
 
-1) Added a base64 encoded version of the MBTA logo as the marker icons
-2) Added a global variable for indicating that updated data is available. I use this variable in my marker update function to determine wether to update the markers or set a timeout to check again in one second
-3) Changed it to update the position of existing markers instead of deleting all markers and setting new ones by saving each new marker in a list of two objects [busID, marker] and using that list to determine wether a marker already exists for a datapoint
-4) Added comments describing functionality and high level steps
+- Added a base64 encoded version of the MBTA logo as the marker icons
+- Added a global variable for indicating that updated data is available. I use this variable in my marker update function to determine wether to update the markers or set a timeout to check again in one second
+- Changed it to update the position of existing markers instead of deleting all markers and setting new ones by saving each new marker in a list of two objects [busID, marker] and using that list to determine wether a marker already exists for a datapoint
+- Added comments describing functionality and high level steps
 
 ### Roadmap of future improvements
-1) Show bus # on hover over bus transit icon
-2) Show occupancy status on hover over bus transit icon
+- Show bus # on hover over bus transit icon
+- Show occupancy status on hover over bus transit icon
 
 ### License
 MIT License
