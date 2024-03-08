@@ -9,6 +9,13 @@
 4) Replace YOUR_API_KEY with your API key
 5) Load index.html in a browser
 
+### Improvements made so far
+
+1) Added a base64 encoded version of the MBTA logo as the marker icons
+2) Added a global variable for indicating that updated data is available. I use this variable in my marker update function to determine wether to update the markers or set a timeout to check again in one second
+3) Changed it to update the position of existing markers instead of deleting all markers and setting new ones by saving each new marker in a list of two objects [busID, marker] and using that list to determine wether a marker already exists for a datapoint
+4) Added comments describing functionality and high level steps
+
 ### Roadmap of future improvements
 1) Show bus # on hover over bus transit icon
 2) Show occupancy status on hover over bus transit icon
