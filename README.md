@@ -2,6 +2,8 @@
 
 ## Real-time locations of buses en route between MIT and Harvard
 
+https://www.youtube.com/watch?v=16GIgTOt1n8
+
 ### How to Run
 - Enable the Maps Javascript API in a new Google Cloud project
 - Add billing information and attach a billing account to your project (won't cost anything to run this)
