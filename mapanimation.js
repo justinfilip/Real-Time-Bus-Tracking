@@ -18,6 +18,7 @@ async function refreshBusData(){
 
     // store location data in an array
     for (i=0; i<locations.length; i++) {
+        console.log(locations[i])
         busLocations[locations[i].id] = [locations[i].attributes.longitude, locations[i].attributes.latitude];
     }
 
@@ -38,7 +39,7 @@ async function initMap() {
     const { Map } = await google.maps.importLibrary("maps");
     
     map = new Map(document.getElementById("map"), {
-        zoom: 12,
+        zoom: 13,
         center: position,
         mapId: "MBTA Bus Locations",
     });
