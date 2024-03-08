@@ -1,6 +1,6 @@
 # Real Time Bus Tracker
 
-## Real-time location tracking of MBTA buses en route between MIT and Harvard
+## Real-time locations of buses en route between MIT and Harvard
 
 ### How to Run
 1) Enable the Maps Javascript API in a new Google Cloud project
