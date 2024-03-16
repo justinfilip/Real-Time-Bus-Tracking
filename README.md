@@ -1,28 +1,28 @@
 # Real Time Bus Tracking
 
-## Real-time locations of buses en route between MIT and Harvard using the Google Maps Javascript API and data from mbta.com. Buses are represented as the MBTA logo and the location of the buses is updated every 15 seconds.
+### Real-time locations of buses en route between MIT and Harvard using the Google Maps Javascript API and data from mbta.com. Buses are represented as the MBTA logo and the location of the buses is updated every 15 seconds.
 
 https://www.youtube.com/watch?v=16GIgTOt1n8
 
-### How to Run
+## How to Run
 - Enable the Maps Javascript API in a new Google Cloud project
 - Add billing information and attach a billing account to your project (won't cost anything to run this)
 - Create an API key
 - Replace YOUR_API_KEY with your API key
 - Load index.html in a browser
 
-### Improvements made so far
+## Improvements made so far
 
 - Added a base64 encoded version of the MBTA logo as the marker icons
 - Added a global variable for indicating that updated data is available. I use this variable in my marker update function to determine wether to update the markers or set a timeout to check again in one second
 - Changed it to update the position of existing markers instead of deleting all markers and setting new ones by saving each new marker in a list of two objects [busID, marker] and using that list to determine wether a marker already exists for a datapoint
 - Added comments describing functionality and high level steps
 
-### Roadmap of future improvements
+## Roadmap of future improvements
 - Show bus # on hover over bus transit icon
 - Show occupancy status on hover over bus transit icon
 
-### License
+## License
 MIT License
 
 Copyright (c) 2024 Justin Filip
