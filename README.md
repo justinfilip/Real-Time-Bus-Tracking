@@ -1,6 +1,6 @@
 # Real Time Bus Tracking
 
-## Real-time locations of buses en route between MIT and Harvard. Buses are represented as the MBTA logo and the location of the buses is updated every 15 seconds.
+## Real-time locations of buses en route between MIT and Harvard using the Google Maps Javascript API and data from mbta.com. Buses are represented as the MBTA logo and the location of the buses is updated every 15 seconds.
 
 https://www.youtube.com/watch?v=16GIgTOt1n8
 
