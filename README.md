@@ -1,4 +1,4 @@
-# Real Time Bus Tracker
+# Real Time Bus Tracking
 
 ## Real-time locations of buses en route between MIT and Harvard
 
