@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=16GIgTOt1n8
 - Enable the Maps Javascript API in a new Google Cloud project
 - Add billing information and attach a billing account to your project (won't cost anything to run this)
 - Create an API key
-- Replace YOUR_API_KEY with your API key
+- Replace YOUR_API_KEY with your API key in index.html
 - Load index.html in a browser
 
 ## Improvements made so far
